@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <time.h>
 
 void staticFunction(void) 
 {
@@ -27,7 +28,7 @@ main(void)
                       
         t1 = clock() - t1;
         double time_taken = ((double)t1/CLOCKS_PER_SEC);
-        printf("it took %f seconds to call staticFunction 100,000 times: \n", time_taken);
+        printf("Took %f seconds \n", time_taken);
                                      
         
         clock_t t2 = clock();
@@ -49,5 +50,5 @@ main(void)
                       
         t3 = clock() - t3;
         double time3_taken = ((double)t3/CLOCKS_PER_SEC);
-        printf("it took %f seconds to call staticFunction 100,000 times: \n", time3_taken);  
+        printf("Took %f seconds \n", time3_taken);  
 }
