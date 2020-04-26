@@ -1,21 +1,25 @@
 $a = 1;
 
-sub sub1 {
+sub sub1 
+{
   return $a;
 }
 
-sub static {
+sub static 
+{
   my $a = 2;
   return sub1();
 }
 
 $b = 3;
 
-sub sub2 {
+sub sub2 
+{
   return $b;
 }
 
-sub dynamic {
+sub dynamic 
+{
   local $b = 4;
   return sub2();
 }
