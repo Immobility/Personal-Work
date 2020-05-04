@@ -6,6 +6,9 @@ After executing successfully, you should see a "> " symbol. Type any query such 
 
 -----------------
 Devang Patel
+
 Dong Jun Kim
+
 Aaron Ding
+
 Merizka Palad
