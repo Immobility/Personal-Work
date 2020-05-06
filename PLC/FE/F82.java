@@ -1,4 +1,4 @@
-public class F6
+public class F82
 {
 	public static void main(String[] args)
 	{
